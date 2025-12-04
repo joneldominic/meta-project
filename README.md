@@ -133,3 +133,9 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters)
 - [Configuration Options](https://turborepo.com/docs/reference/configuration)
 - [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
+
+---
+
+# Quick Dev Notes
+
+- In order for monorepo root git to include apps and packages (e.g. todo-api nestjs app), it should not have `.git` directory itself.
